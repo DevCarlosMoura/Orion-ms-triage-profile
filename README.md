@@ -31,7 +31,7 @@ Diferente de um catálogo de produtos genérico, este serviço armazena informa�
 
 ```bash
 # 1. Clone o repositório
-$ git clone <COLE AQUI A URL DO SEU REPOSITÓRIO GITHUB>
+$ git clone https://github.com/DevCarlosMoura/Orion-ms-triage-profile.git
 
 # 2. Navegue até o diretório do projeto
 $ cd java-ms-triage-profile
@@ -59,4 +59,4 @@ A API expõe operações CRUD completas para os perfis de triagem em `/api/v1/tr
 | `DELETE`    | `/api/v1/triage-profiles/{id}`  | Deleta um perfil pelo seu UUID.           | N/A                                                                                                                |
 
 ---
-_Desenvolvido por [Carlos Moura](<COLE AQUI O LINK DO SEU GITHUB OU LINKEDIN>)_
+_Desenvolvido por [Carlos Moura](https://www.linkedin.com/in/carlos-eduardo-moura-pinheiro-60a1ba169)_
