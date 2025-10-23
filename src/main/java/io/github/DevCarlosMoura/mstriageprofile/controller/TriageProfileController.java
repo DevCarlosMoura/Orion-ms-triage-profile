@@ -65,5 +65,13 @@ public class TriageProfileController {
         }
                 triageProfileRepository.deleteById(id);
                 return ResponseEntity.noContent().build();
+                
+    }
+
+    @GetMapping("/by-sku/{sku}")
+    public ResponseEntity<TriageProfile> getProfileByProductSku(@PathVariable String sku) {
+        return triageProfileRepository.findByProductSku(sku)
+                .map(profile -> ResponseEntity.ok(profile))
+                .orElse(ResponseEntity.notFound().build());
     }
 }
